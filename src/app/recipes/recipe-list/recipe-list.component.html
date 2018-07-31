@@ -7,9 +7,12 @@
 <div class="row">
   <div class="col-xs-12">
     <app-recipe-item
-    *ngFor="let recipeEl of recipes"
-    [recipe]="recipeEl"></app-recipe-item>
+      *ngFor="let recipeEl of recipes"
+      [recipe]="recipeEl"
+      (recipeSelected)="onRecipeSelected(recipeEl)"
+    ></app-recipe-item>
     <!-- the recipe we are binding here, is the same in recipe-item which we are @Input. -->
   </div>
 </div>
+
 
