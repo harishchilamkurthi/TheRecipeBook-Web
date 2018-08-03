@@ -26,4 +26,6 @@ export class ShoppingEditComponent implements OnInit {
     this.ingredientAdded.emit(newIngredient);
   }
 
+
+  //////random text = vghcvkjvchvhvbb vgchbnhvcfcvhjb
 }
